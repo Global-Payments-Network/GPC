@@ -349,10 +349,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "Global_Payments_Coin";
-    _symbol = "GPC";
+    _name = "World_Pay_Coin";
+    _symbol = "WPC";
     _decimals = 18;
-    _totalSupply = 100000000000000000000000000;
+    _totalSupply = 200000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
