@@ -352,7 +352,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
     _name = "World_Pay_Coin";
     _symbol = "WPC";
     _decimals = 18;
-    _totalSupply = 200000000000000000000000000;
+    _totalSupply = 2000000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
